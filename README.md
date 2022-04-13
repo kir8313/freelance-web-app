@@ -1,24 +1,15 @@
-# 3-freelance-web
+# vue3 freelance web app
+## Dev tools: vue 3, firebase, fetch, vuex, vue-router, Composition API
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Description
+It is app working in vue 3 with [firebase](https://firebase.google.com/) 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+The start window show all tasks with status. You can click to see a task.
 
-### Lints and fixes files
-```
-npm run lint
-```
+In task opened new window. This you can change a status.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Top navbar with "Создать" open a window form with mini validation in empty string.
+If create task with date today and earlier then status will be automatic "Отменён" 
+
+## [Demo](http://kirill8313.store/)
